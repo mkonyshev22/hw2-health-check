@@ -20,7 +20,7 @@ docker build --platform linux/amd64 -t otus-hw-2-health-check .
 
 - Указать тэг
 ```bash
-docker tag otus-hw-1-health-check mksikayo/otus-hw-2-health-check
+docker tag otus-hw-2-health-check mksikayo/otus-hw-2-health-check
 ```
 
 - Запушить образ на dockerhub
