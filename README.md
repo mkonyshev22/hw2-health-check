@@ -10,27 +10,27 @@
 
 - Сборка образа
 ```bash
-docker build --platform -t otus-hw-1-health-check .
+docker build --platform -t otus-hw-2-health-check .
 ```
 
 - Или сборка образа под amd64
 ```bash
-docker build --platform linux/amd64 -t otus-hw-1-health-check .
+docker build --platform linux/amd64 -t otus-hw-2-health-check .
 ```
 
 - Указать тэг
 ```bash
-docker tag otus-hw-1-health-check mksikayo/otus-hw-1-health-check
+docker tag otus-hw-1-health-check mksikayo/otus-hw-2-health-check
 ```
 
 - Запушить образ на dockerhub
 ```bash
-docker push mksikayo/otus-hw-1-health-check
+docker push mksikayo/otus-hw-2-health-check
 ```
 
 - Запустить образ
 ```bash
-docker run -p8000:8000 mksikayo/otus-hw-1-health-check
+docker run -p8000:8000 mksikayo/otus-hw-2-health-check
 ```
 
 - Проверить endpoint /health
